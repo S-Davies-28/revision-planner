@@ -1,0 +1,16 @@
+<table>
+  {% for week in calendar %}
+    <tr>
+      {% for day in week %}
+        <td>
+          {% if day != 0 %}
+            {{ day }}
+
+            
+
+          {% endif %}
+        </td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
